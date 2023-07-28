@@ -1,0 +1,64 @@
+{
+  "name": "ak-collection",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.10",
+    "@stripe/react-stripe-js": "^2.1.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.5",
+    "cors": "^2.8.5",
+    "font-awesome": "^4.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "jwt-decode": "^3.1.2",
+    "mdb-react-ui-kit": "^6.1.0",
+    "node-gyp": "^9.3.1",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-loading-skeleton": "^3.1.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.11.1",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "url": "^0.11.0",
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": " react-scripts start",
+    "build": "webpack --config prod.config.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@webpack-cli/generators": "^3.0.4",
+    "gh-pages": "^4.0.0",
+    "webpack-cli": "^5.1.1"
+  }
+}
